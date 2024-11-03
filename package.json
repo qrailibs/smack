@@ -1,0 +1,37 @@
+{
+  "name": "@proxymal/smack",
+  "version": "1.0.0",
+  "description": "Simple shorthands library",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "dev": "nodemon",
+    "build": "pnpm dlx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qrailibs/smack.git"
+  },
+  "keywords": [
+    "shorthands"
+  ],
+  "author": "qrai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qrailibs/smack/issues"
+  },
+  "homepage": "https://github.com/qrailibs/smack#readme",
+  "dependencies": {
+    "typescript": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.3",
+    "@types/node": "^18.7.18",
+    "ts-jest": "^29.0.1",
+    "ts-node": "^10.9.1",
+    "nodemon": "^2.0.20"
+  }
+}
