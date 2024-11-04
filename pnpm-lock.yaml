@@ -19,7 +19,7 @@ importers:
         specifier: ^18.7.18
         version: 18.19.64
       nodemon:
-        specifier: ^2.0.20
+        specifier: ^2.0.22
         version: 2.0.22
       ts-jest:
         specifier: ^29.0.1
